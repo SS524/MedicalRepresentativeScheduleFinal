@@ -8189,11 +8189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\MFRP\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
       "projectName": "MedicalRepresentativeScheduleMicroservice",
-      "projectPath": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\MFRP\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\MFRP\\MedicalRepresentativeScheduleMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
