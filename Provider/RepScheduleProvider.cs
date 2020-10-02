@@ -33,9 +33,9 @@ namespace MedicalRepresentativeScheduleMicroservice.Provider
                     if (date.DayOfWeek != DayOfWeek.Sunday)
                     {
                         Doctor doc = RepScheduleRepository.lsdoc[count];
-                        IEnumerable<string> medicines = from m in stock where m.TargetAilment == doc.TreatingAilment select m.Name;
+                        IEnumerable<string> medicines = from m in stock where m.TargetAilment == doc.TreatingAilment select m.Name;  
                         RepSchedule rp = new RepSchedule();
-                        rp.RepName = MedicalRepresentativeRepository.medicalRepresentativeList[count % 3].Name;
+                        rp.RepName = MedicalRepresentativeRepository.medicalRepresentativeList[count % 3].Name;  //Representative Name
                         rp.Medicine = medicines;
                         rp.Doctor = doc;
                         rp.MeetingSlot = "1 pm to 2 pm";

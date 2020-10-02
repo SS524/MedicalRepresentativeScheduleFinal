@@ -29,11 +29,7 @@ namespace MedicalRepresentativeScheduleMicroservice.Controllers
           [HttpGet("{date}")]
         public IActionResult Get(DateTime  date)
         {
-
-            string token ;
-
-          
-
+            string token ;          
             try
             {
                 if (HttpContext==null)
@@ -43,8 +39,6 @@ namespace MedicalRepresentativeScheduleMicroservice.Controllers
                 else
                     token = HttpContext.Request.Headers["Authorization"].FirstOrDefault().Split(" ")[1];
                 
-
-
                 if (date != null)
                 {
                     IEnumerable<RepSchedule> res = _providercon.GetByDate(date, token);
